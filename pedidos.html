@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link rel="shortcut icon" href="img/ICONO.ico" />
+
+		<link href="https://fonts.googleapis.com/css?family=Francois+One|PT+Sans+Narrow|Spartan&display=swap" rel="stylesheet">
+	
+		<link type="text/css" href="style.css" rel="stylesheet"/> 
+        <title>ChocoMili</title>
+	</head>
+	
+	<body>
+       
+        
+        <header class="main_h sticky">
+
+    <div class="row">
+        <div class="mobile-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Productos</a></li>
+                <li><a href="recetas.html">Recetas</a></li>
+                <li><a href="#">Hacé tu pedido</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+</header>
+        
+
+        <div class="container-fluid" id="pedidos">
+         <img src="img/logo1.PNG" class="logo-enc">
+            <h1>Haz tu pedido</h1>
+            
+            <div class="row">
+            
+                <div id="divcasa" class="col-12 col-md-6">
+                    <img id="casa" src="img/casa.jpg">
+                </div>
+            
+            
+            <div class="col-12 col-md-6" id="cs">
+                
+             <form method="POST" action="https://formspree.io/">
+                 
+                 <div class="row">
+                     <div class="col-12 sm-12">
+                 <input  type="text" class="form-control barraform" id="inputname" placeholder="Nombre Completo" name="name" >
+                         </div>
+                            <div class="col-12 sm-12">
+                                        <input type="email" class="form-control barraform" name="email" placeholder="Correo electrónico">
+                                        </div>
+                     <div class="col-12 sm-12">
+                                        <textarea name="message" class="form-control barraform" placeholder="Dirección" ></textarea>
+                 </div>
+                     
+                     
+                 </div>
+                                        <button type="submit" class="form-control btnimp" id="enviarmsj">Enviar</button>
+                                    </form>
+        </div>
+        </div>
+        
+        </div>
+        
+
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<script src="javas.js"></script>
+
+
+
+
+	</body>
+	
+	
+</html>

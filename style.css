@@ -1,0 +1,293 @@
+html, body {
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main_h {
+  position: fixed;
+  top: 0px;
+  max-height: 70px;
+  z-index: 999;
+  width: 100%;
+  padding-top: 17px;
+  background: #704040;
+  overflow: hidden;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  clear: both;
+  top: 0px;
+  padding-bottom: 6px;
+  font-family: 'PT Sans Narrow', ;
+    display: block;
+    
+}
+
+header{
+    text-align:center;
+}
+.main_h nav{
+    float: right;
+    text-align: center;
+    margin-right: 0;
+    padding-right: 0;
+}
+@media only screen and (max-width: 766px) {
+  .main_h {
+    padding-top: 25px;
+  }
+}
+
+.open-nav {
+  max-height: 400px !important;
+}
+.open-nav .mobile-toggle {
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+
+.sticky {
+  background-color: #704040;
+  opacity: 1;
+  top: 0px;
+}
+
+.logo img{
+  width: 100px;
+  float: left;
+  display: block;
+  margin-top: -10px;
+ 
+  margin-bottom: 0px;
+}
+@media only screen and (max-width: 766px) {
+  .logo {
+    float: none;
+
+  }
+    .logo img{
+        margin-top: -20px;
+    }
+}
+
+nav {
+  text-align: center;
+  width: 60%;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 766px) {
+  nav {
+    width: 100%;
+  }
+}
+nav ul {
+  list-style: none;
+  overflow: hidden;
+  text-align: right;
+  float: right;
+}
+@media only screen and (max-width: 766px) {
+  nav ul {
+    padding-top: 10px;
+    margin-bottom: 22px;
+    float: left;
+    text-align: center;
+    width: 100%;
+  }
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 35px;
+  line-height: 1.5;
+}
+@media only screen and (max-width: 766px) {
+  nav ul li {
+    width: 100%;
+    padding: 7px 0;
+    margin: 0;
+  }
+}
+nav ul a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+    font-family: 'PT Sans Narrow';
+}
+
+.mobile-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  right: 22px;
+  top: 0;
+  width: 30px;
+  -webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+@media only screen and (max-width: 766px) {
+  .mobile-toggle {
+    display: block;
+      margin-top: 15px;
+  }
+}
+.mobile-toggle span {
+  width: 30px;
+  height: 4px;
+  margin-bottom: 2px;
+    margin-top: 6px;
+  border-radius: 1000px;
+  background: white;
+  display: block;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: #3E2723;
+}
+
+
+.content {
+  padding: 50px 2% 250px;
+}
+
+
+
+/* PRODUCTOS*/
+
+#productos{
+    width: 100%;
+    height: auto;
+    margin-top: 00px;
+    text-align: center;
+    
+}
+#productos h1{
+    text-transform: uppercase;
+    padding: 20px;
+    padding-top: 5px;
+}
+.logo-enc{
+    width: 40%;
+    height: auto;
+    text-align: center;
+    margin: 0 30% 0 30%;
+display: inline;
+}
+
+.card{
+    border: 0px solid transparent;
+}
+.card-body img{
+    width: 90%;
+    height: auto;
+    padding: 5px;
+}
+.card-subtitle{
+    text-transform: uppercase;
+    padding: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 766px) {
+    
+    .logo-enc{
+        width: 80%;
+        margin: 90px 5% 0 5%;
+    }
+    .card-body{
+        padding: 10px;
+    }
+    .card-body img{
+    width: 100%;
+    padding: 0px;
+    }
+.card-subtitle{
+    margin-top: 10px;
+    padding: 0px;
+    font-size: 15px;
+    }   
+}
+
+/*RECETAS*/
+
+#recetas h1{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+}
+
+#recetas ul li{
+    list-style: none;
+}
+@media only screen and (max-width: 766px) {
+    #recetas p{
+        font-size: 10px;
+    }
+    #recetas ul li{
+        font-size: 10px;
+        list-style: none;
+    }
+    #recetas h6 {
+        font-size: 12px;
+    }
+}
+
+/*PEDIDOS*/
+
+#pedidos h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+#pedidos #casa{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+#pedidos .barraform{
+    width: 95%;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 2px solid #704040;
+    color: black;
+    padding: 10px;
+    margin: 20px;
+    
+}
+
+.btnimp{
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 20px;
+    background-color: #704040;
+    color: white;
+    text-transform: uppercase;
+    float: right;
+    display: inline-block;
+}
+.btnimp:hover{
+    background-color: #D7CCC8;
+    color: #704040;
+}
+
+
+@media only screen and (max-width: 766px){
+    
+}
